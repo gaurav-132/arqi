@@ -1,0 +1,10 @@
+.table-div{
+	display: table;
+}
+.table-div > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+.table-div .top{
+	vertical-align: top;
+}
