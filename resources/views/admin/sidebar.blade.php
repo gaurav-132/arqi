@@ -8,9 +8,9 @@
 				</a>
 			</li>
 			<li class="menu-item">
-				<a class="menu-link" href="">
+				<a class="menu-link" href="{{url('/products')}}">
 					<i class="fa fa-laptop"></i>&nbsp;&nbsp;
-					<span>Graphs</span>
+					<span>Products</span>
 				</a>
 			</li>
 			<li class="menu-item">
@@ -19,13 +19,13 @@
 					<span>Mails</span>
 				</a>
 			</li>
-			<li class="menu-item has-sub-menu">
+			<li class="menu-item has-sub-menu enabled">
 				<a class="menu-link" href="javascript:;">
 					<i class="fa fa-th"></i>&nbsp;&nbsp;
 					<span>Charts</span>
 				</a>
-				<ul class="sidebar-sub-menu">
-					<li class="menu-item active">
+				<ul class="sidebar-sub-menu enabled">
+					<li class="menu-item">
 						<a class="menu-link" href="">
 							<i class="fa fa-dashboard"></i>&nbsp;&nbsp;
 							<span>Dashboard</span>

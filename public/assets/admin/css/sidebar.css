@@ -7,13 +7,14 @@
 .sidebar{
 	height: 100vh;
 	position: fixed;
-    width: 300px;
+    width: 250px;
     background-color: #333;
 }
 .sidebar-inner{
 	overflow-y: scroll;
 	height: 100%;
 }
+
 
 .sidebar-inner::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
@@ -32,7 +33,7 @@
 	text-decoration: none;
 	text-decoration-color: none;
 	font-weight: light;
-	font-size: 15px;
+	font-size: 14px;
 	color: #aeb2b7;
 	padding: 14px 40px;	
 	display: block;
@@ -41,17 +42,19 @@
 }
 
 .menu-item.active .menu-link, .menu-item:hover a{
-	background-color: black;
+	background-color: #28282e;
 	color: #1FB5AD !important;
 }
 
+
+
 .sidebar-sub-menu{
 	display: none;
-	transition:all 2s ease;
+	transition:all 0.04s ease;
 }
-.sidebar-sub-menu.open{
-	transition:all 2s ease;
 
+.sidebar-sub-menu.open{
+	transition:all 0.04s ease;
 	display: block;
 }
 .sidebar-sub-menu .menu-link{

@@ -9,9 +9,9 @@
     box-shadow: 0 0 5px #a6a6a6;
 }
 
-.bars{
+.slider-toggle-box{
 	position: absolute;
-	left: 282px;
+	left: 230px;
 	top: 13px;
 	background: #32d2c9;
 	border-radius: 80px;
@@ -19,13 +19,13 @@
 	color: rgba(0,0,0,.4);
 }
 
-.bars:hover{
-	background: #fff;
+.slider-toggle-box:hover{
+	background: #f6f6f6;
 }
 
 .page-header-logo{
 	padding-top: 17px; 
-	width: 300px; 
+	min-width: 250px; 
 	background: #1fb5ad;
 	position: relative;
     padding: 14px 0;
