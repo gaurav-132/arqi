@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +18,9 @@ Route::get('/', function () {
     $subsidebar =  'dashboard';
 
     return view('admin.dashboard.index',compact('sidebar','subsidebar'));
+});
+
+
+Route::group(["prefix"=>"product"],function(){
+    Route::get('add-product', [ProductController::class, 'add']);
 });
