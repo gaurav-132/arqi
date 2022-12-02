@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,7 +21,9 @@ Route::get('/', function () {
     return view('admin.dashboard.index',compact('sidebar','subsidebar'));
 });
 
-
-Route::group(["prefix"=>"product"],function(){
-    Route::get('add-product', [ProductController::class, 'add']);
+Route::group(["prefix"=>"products"], function(){
+    Route::get('/', [ProductController::class, 'index']);
+    Route::get('/add/{product_id?}', [ProductController::class, 'add']);
+    Route::post('/store/{product_id?}', [ProductController::class, 'store']);
+    Route::get('/delete/{id}', [ProductController::class, 'delete']);
 });

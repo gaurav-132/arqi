@@ -17,10 +17,10 @@
 
 	<div class="container-fluid p-0">
 		<div class="row m-0">
-			<div class="col-md-3 p-0">
+			<div class="col-md-3 p-0" style="width: 250px;">
 				@include('admin.sidebar')
 			</div>
-			<div class="col-md-9">
+			<div class="col-md-9" style="width: 1662px;">
 				@yield('content')
 			</div>
 		</div>

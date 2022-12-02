@@ -1,15 +1,11 @@
 <div class="page-header">
-	<div class="container-fluid p-0">  
+	<div class="container-fluid p-0 d-flex">  
 		<div class="table-div">
-			<div class="  page-header-logo">
-				<h4>Bucket Admin</h4>
-				<div class="bars">
-					<div class="fa fa-bars"></div>
-				</div>
-			</div>
-			<div class="" style="text-align: right; padding-top: 17px;">
-				<i class="fa fa-user"></i>
-				<span>User</span>
+			<div class="page-header-logo">
+				<h4>BUCKET ADMIN</h4>
+				<a href class="slider-toggle-box">
+					<div class="fa fa-bars menu-btn"></div>
+				</a>
 			</div>
 		</div>
 	</div>
